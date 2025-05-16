@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<html>
+     <head>
+        <title>Exercicios de enfermagem</title>
+        <meta name="description" content="Exercicios de enfermagem, para capacitar enfermeiros">
+     </head>
+     <body>
+        <header>
+            <h1>Exercicios interativos para enfermeiros</h1>
+            <p>Teste seus conhecimentos em enfermagem!</p>
+        </header>
+        <main>
+            <!--Introducao-->
+            <section>
+                <h2>sobre esses exercicios</h2>
+                <p>Esses exercicios foram desenvolvidos para capacitar os enfermeiros</p>
+                <p>Voce encontrara diferentes exercicios, incluindo multipla escolha e perguntas abertas.</p>
+                <p>Voce podera emcontrar alguns acronimos como: <abbr title="Endovenoso">EV</abbr> e <abbr title="Intra-muscular">IM</abbr>, que sao comumente usados em questoes relacionados com a administracao terapeutica.</p>
+            </section>
+            <!--Pergunta 1: multipla escolha-->
+            <section>
+                <h2>Qual e o amgulo para administrar medicamento no EV?</h2>
+                <form>
+                    <input type="radio" value="15 graus" id="p1a" name="pergunta1">
+                    <label for="p1a">15 graus</label><br>
+                    <input type="radio" value="25 graus" id="p1b" name="pergunta1">
+                    <label for="p2b">25 graus</label><br>
+                    <input type="radio" value="45 graus" id="p1c" name="pergunta1">
+                    <label for="p3c">45 graus</label><br>
+                    <input type="radio" value="90 graus" id="p1d" name="pergunta1">
+                    <label for="p4d">90 graus</label><br>
+                    
+            
+            
+                </form>
+            </section>
+            <!--Pergunta 2: texto-->
+            <section>
+                <h2>Pergunta 2: Florence e mae da -----</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--Perguat 3: senha-->
+            <section>
+                <h2>Pergunta 3: Escreva um exemplo de senha forte</h2>
+                <form>
+                    <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+                </form>
+            </section>
+            <!--pergunta 4: data-->
+            <section>
+                <h2>Pergunta 4: Em que ano a florence perdeu a vida?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta 4">
+                </form>
+            </section>
+            <!--Pergunta 5: Selecao multipla-->
+            <section>
+                <h2>Pergunta 5: Qual desses termos e considerado sinais cardinais?</h2>
+                <form>
+                    <input type="checkbox" id="p5a" name="pergunta5" value="Inflamacao">
+                    <label for="p5a">Inflamacao</label><br>
+                    <input type="checkbox" id="p5b" name="pergunta5" value="Infecao">
+                    <label for="p5a">Infecao</label><br>
+                    <input type="checkbox" id="p5c" name="pergunta5" value="Gripe">
+                    <label for="p5a">Gripe</label><br>
+                    <input type="checkbox" id="p5d" name="pergunta5" value="vermelhidao">
+                    <label for="p5a">Vermelhidao</label><br>
+                    
+                </form>
+            </section>
+            <!--Pergunta 6:-->
+            <section>
+                <h2>pergunta 6: faça um upload de um arquivo da enfermagem que fala sobre sinais vitais</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+
+            </section>
+            <!--Pergunta 7: menu suspenso-->
+            <section>
+                <h2>Pergunta 7: Selecione a opcao que faz parte dos sinais vitais</h2>
+                <form>
+                    <select name="pergunta 7" id="p7">
+                        <option value="coracao">coracao</option>
+                        <option value="temperatura">temperatura</option>
+                        <option value="convulsao">convulsao</option>
+                        <option value="peso"></option>
+                    </select>
+                </form>
+            </section>
+            <!--pergunta 8: imagem-->
+            <section>
+                <h2>Pergunta 8: qual e a area da medicina representada pelo logotipo abaixo</h2>
+                <img src="ima.jpg" alt=""><br>
+                <input type="text" id="p8" name="prgunta8" placeholder="Digite sua resposta...">
+            </section>
+            <!--tabela de pontuacao-->
+            <section>
+                <h2>Tabela de pontuacao</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuacap</th>
+                            <th>avaliacao</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>0-2</td><br>
+                        <td>nao desista cada tentiva e uma oportunidade de voce apremder</td><br>
+                        <td>3-4</td>
+                        <td>voce ainda precisa melhorar.</td><br>
+                        <td>5-7</td>
+                        <td>Bom! seu conhecimento em enfermagem esta satisfatorio</td><br>
+                        <td>8</td>
+                        <td>Perfeito! voce esta muito bem informado sobre enfermagem</td>
+                    </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Boa sorte na proxima</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <!--Lista de respostas-->
+            <section>
+                <h2>Verifique suas respostas</h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas</summary>
+                    <ol>
+                        <li>25 graus</li>
+                        <li>infeccao</li>
+                    </ol>
+                </details>
+            </section>
+            <!--Formulario de feedback-->
+            <section>
+                <h2>Nos de o seu feedback</h2>+
+                <form>
+                    <fieldset>
+                        <legend>Informacoes de contacto</legend>
+                    <label for="name">name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="comentarios">comentarios</label><br>
+                    <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Digite seus comentarios aqui..."></textarea><br>
+                    <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy Exercicios de Enfermagem. Todos os direitos reservados</p>
+            <p>Para conhecer outros exercicios <a href="https://google.com" target="_blank">clique aqui</a></p>
+        </footer>
+     </body>
+</html>
